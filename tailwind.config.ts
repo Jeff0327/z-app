@@ -4,6 +4,7 @@ const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
+<<<<<<< HEAD
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
@@ -14,6 +15,12 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+=======
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    
+>>>>>>> a510cff (asd)
   },
   plugins: [],
 }
