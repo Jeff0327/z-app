@@ -1,15 +1,16 @@
 import { ReactNode } from 'react';
 import './globals.css';
 
-type Props={children:ReactNode,modal:ReactNode}
+type Props={children:ReactNode}
 export default function RootLayout({
   children,
-  modal
+  
 }:Props ) {
   return (
-    <div>
+    <html lang="en">
+      <body>
       {children}
-      {modal}
-    </div>
+      </body>
+    </html>
   )
 }
