@@ -1,7 +1,7 @@
+import mainImage from '@/public/Z.png';
 import Image from "next/image";
 import Link from 'next/link';
-import mainImage from '../../public/Z.png';
-export default function Home() {
+function Main() {
   return (
     <>
       <div className="flex float-left w-1/2 h-full flex-row justify-center items-center">
@@ -15,8 +15,10 @@ export default function Home() {
         </div>
         <Link href="/i/flow/signup" className="my-5 border-2 rounded-lg px-20 bg-blue-400">계정 만들기</Link>
         <h3>이미 계정이 있으신가요?</h3>
-        <Link href="/login" className="my-5 border-2 rounded-lg px-20 bg-blue-400">로그인하기</Link>
+        <Link href="/i/flow/login" className="my-5 border-2 rounded-lg px-20 bg-blue-400">로그인하기</Link>
       </div>
     </>
   )
 }
+
+export default Main
